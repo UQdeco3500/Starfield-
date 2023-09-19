@@ -1,7 +1,7 @@
 # Starfield-
 
 ## Link To Project Proposal
-link to wiki page here containing proposal slides
+[link to wiki page here containing proposal slides](https://github.com/UQdeco3500/Starfield-/wiki#1-design-proposal)
 
 ## Link to Design Process Overview
 https://github.com/UQdeco3500/Starfield-/wiki
