@@ -11,7 +11,9 @@ https://github.com/UQdeco3500/Starfield-/wiki#22-prototype
 
 # Instruction for Prototype
 You can enter our website through following link
+
 Website Link: https://uqdeco3500.github.io/Starfield-/
+
 Registration: Registered users must fill in personal information and preferences, including name, cell phone number, password and whether they take insulin, religious affiliation, daily hours of work, work address, and Food allergy; click on complete to go to the home page.
 
 Login: The user enters the cell phone number and password to access the home page.
