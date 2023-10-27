@@ -14,9 +14,7 @@ You can enter our website through following link
 
 Website Link: https://uqdeco3500.github.io/Starfield-/
 
-Registration: Registered users must fill in personal information and preferences, including name, cell phone number, password and whether they take insulin, religious affiliation, daily hours of work, work address, and Food allergy; click on complete to go to the home page.
-
-Login: The user enters the cell phone number and password to access the home page.
+Sign up: Registered users must fill in personal information and preferences, including name, cell phone number, password and whether they take insulin, religious affiliation, daily hours of work, work address, and Food allergy; click on complete to go to the home page.
 
 Home page: The home page displays the user's location on the map and the restaurants in the neighborhood that are suitable for the user. Clicking on a restaurant in the map will show you the restaurant's details and directions to the restaurant, and clicking on ">" again will take you to the Order page. The navigation bar on the home page includes Home, Order page, Health, and Account.
 
