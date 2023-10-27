@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/public.css" />
+    <link rel="stylesheet" href="./css/order.css" />
+    <title>order</title>
+  </head>
+  <style></style>
+  <body>
+    <div class="box">
+      <div class="head">
+        <a href="./map2.html">
+          <img class="fh" src="./image/4-3.png" alt="" />
+        </a>
+        <h2>Shopping Cart</h2>
+        <!--Go to see all food-->
+        <a href="./menu.html">
+          <img src="./image/6.png" alt="" />
+          View All
+        </a>
+      </div>
+      <div class="tit">
+        <p>Today’s Recommendation</p>
+      </div>
+      <!--Drag food to the whiteboard to view the current glycemic index-->
+      <div class="shopping_box">
+        <div class="container">
+          <div class="image-item">
+            <div class="lab1">$15</div>
+            <div class="lab2"><img src="./image/5-2x.png" alt="" />18</div>
+            <!--Click to view detailed information about the food-->
+            <a href="./nutrition.html">
+              <img src="./image/image-26.png" alt="Image 1" />
+            </a>
+            <p class="tit_c">Saliva chicken</p>
+          </div>
+          <div class="image-item">
+            <div class="lab1">$6</div>
+            <div class="lab2"><img src="./image/5-2x.png" alt="" />8</div>
+            <a href="#">
+              <img src="./image/mask-group-1.png" alt="Image 1" />
+            </a>
+            <p class="tit_c">Green pepper pork</p>
+          </div>
+          <div class="image-item">
+            <div class="lab1">$5</div>
+            <div class="lab2"><img src="./image/5-2x.png" alt="" />6</div>
+            <a href="#"><img src="./image/image-40.png" alt="Image 1" /></a>
+            <p class="tit_c">Steamed Taro</p>
+          </div>
+          <div class="image-item">
+            <div class="lab1">$19</div>
+            <div class="lab2 labnone">
+              <img src="./image/5-2x.png" alt="" />18
+            </div>
+            <a href="#"><img src="./image/image-39.png" alt="Image 2" /></a>
+            <p class="tit_c">Garlic</p>
+          </div>
+        </div>
+        <div class="container container2 target-box"></div>
+      </div>
+      <div class="tit">
+        <p>Shopping Cart</p>
+      </div>
+      <div class="s_c">
+        <div class="s1"></div>
+        <div class="s2"></div>
+        <div class="s3">
+          <div class="bto">
+            <p class="p1">Glycemic index</p>
+            <!--Display current glycemic index-->
+            <div class="bar_box">
+              <div class="bar_d"></div>
+              <div class="bar">
+                <div class="bar_ico">
+                  <img id="pro_ico" src="./image/2-3.png" alt="" />
+                  <p id="bars" class="fon_ico">0</p>
+                </div>
+              </div>
+              <p>mmol/L</p>
+              <img class="line1" src="./image/line-101.svg" alt="" />
+              <img class="line2" src="./image/line-101.svg" alt="" />
+              <div class="font1">33</div>
+              <div class="font2">66</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Display current consumption amount-->
+      <div class="tit2">
+        <p>Total</p>
+        <span id="price">$0</span>
+      </div>
+      <div class="tit2">
+        <p>Reward</p>
+      </div>
+      <!--Display the rewards received by the user-->
+      <div class="reward">
+        <div class="rew1">
+          <p class="fon fon1">Day 1</p>
+          <p class="fon fon2">Day 2</p>
+          <p class="fon fon3">Day 3</p>
+          <p class="fon fon4">Day 4</p>
+          <p class="fon fon5">Day 5</p>
+          <p class="fon fon6">Coupon $5</p>
+          <img class="line1" src="./image/line-102.svg" alt="" />
+          <div class="wre wre1">
+            <img src="./image/3.png" alt="" />
+          </div>
+          <div class="wre wre2">
+            <img src="./image/3.png" alt="" />
+          </div>
+          <div class="cen">
+            <img src="./image/1-1-0.png" alt="" />
+          </div>
+          <div class="we we1"></div>
+          <div class="we we2"></div>
+          <img class="img2" src="./image/b-2.png" alt="" />
+          <a href="./pay1.html">
+            <div class="ne_btn">
+              <img src="./image/4-3.png" alt="" /></div
+          ></a>
+        </div>
+      </div>
+      <footer>
+        <!--Go to the home page-->
+        <a href="./map1.html">
+          <div class="ico_btn">
+            <img src="./image/home-2-1.png" alt="" />
+          </div>
+          <p>Home</p>
+        </a>
+        <!--User's current page-->
+        <a href="./order.html">
+          <div class="ico_btn fill">
+            <img class="img2" src="./image/1-2.png" alt="" />
+          </div>
+          <p class="fill_p">Order</p>
+        </a>
+        <!--Go to the health page-->
+        <a href="./health.html">
+          <div class="ico_btn">
+            <img src="./image/2.png" alt="" />
+          </div>
+          <p>Health</p>
+        </a>
+        <!--Go to the account page-->
+        <a href="./account.html">
+          <div class="ico_btn">
+            <img class="img4" src="./image/2-2x.png" alt="" />
+          </div>
+          <p>Account</p>
+        </a>
+      </footer>
+    </div>
+  </body>
+  <script src="./js/order.js"></script>
+</html>
