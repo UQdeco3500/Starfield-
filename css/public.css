@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+a {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+}
+.box {
+  width: 393px;
+  height: 852px;
+  margin: 0 auto;
+  position: relative;
+}
+
+footer {
+  width: 393px;
+  height: 116px;
+  border: 1px solid #dfdfdf;
+  border-bottom: 0;
+  background-color: #ffffff;
+  border-radius: 33px 30px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+footer .ico_btn {
+  width: 42px;
+  height: 42px;
+  background-color: #8d8d8d;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .fill {
+  background-color: #3c3c3c;
+}
+footer a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+footer a p {
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #6c6c6c;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+footer a .fill_p {
+  color: #3c3c3c;
+}
+footer .ico_btn img {
+  width: 27px;
+  height: 23px;
+}
+footer .ico_btn .img2 {
+  width: 40px;
+  height: 37px;
+}
+footer .ico_btn .img4 {
+  width: 26px;
+  height: 26px;
+}

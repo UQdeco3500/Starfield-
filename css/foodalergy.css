@@ -1,0 +1,140 @@
+.box {
+  /* background-color: aqua; */
+  padding-top: 30px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.head a img {
+  width: 34px;
+  height: 34px;
+  transform: rotate(180deg);
+}
+.head .tit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 35px;
+}
+.head .tit h1 {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.head .tit p {
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #5f5f5f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 5px;
+}
+
+.box1 {
+  height: 210px;
+  margin-top: 40px;
+  display: flex;
+  padding-left: 10px;
+}
+.box1 .item {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 36px;
+  background: #d9d9d9;
+  border-radius: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: 30px;
+}
+.box1 .item p {
+  height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.box1 .item .lab1 {
+  position: absolute;
+  top: -5px;
+  right: 5px;
+}
+hr {
+  height: 0px;
+
+  background-color: #bcbcbc;
+  border: 4px solid #bcbcbc;
+}
+
+.box2 {
+  display: flex;
+}
+.box2 .tab {
+  width: 80px;
+  height: 372px;
+  border-right: 1px solid #e9e9e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box2 .tab li {
+  height: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  color: #7b7b7b;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.box2 .r {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.box2 .ico_list {
+  width: 280px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box2 .ico_list .item {
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-basis: calc(33.33% - 10px);
+}
+.f_btn {
+  width: 289px;
+  height: 45px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background: #4451c2;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f_btn a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}

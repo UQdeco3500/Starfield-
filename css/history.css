@@ -1,0 +1,128 @@
+.box {
+  /* background-color: aqua; */
+  padding-top: 20px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.head a img {
+  width: 34px;
+  height: 34px;
+  transform: rotate(180deg);
+}
+.head .tit {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  margin-right: 35px;
+}
+.head .tit img {
+  margin-right: 20px;
+  width: 34px;
+  height: 34px;
+}
+.head .tit h1 {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.head .tit p {
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #5f5f5f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 5px;
+}
+
+.list_box .item {
+  width: 354px;
+  height: 115px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 23px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 15px;
+  /* padding-top: 20px; */
+}
+.list_box .t {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.list_box .t h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.list_box .l img {
+  width: 50px;
+  height: 50px;
+}
+.list_box .b {
+  display: flex;
+  justify-content: space-between;
+}
+.list_box .b .l {
+  display: flex;
+}
+.list_box .b .l .font {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+.list_box .b .l p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7d7d7d;
+}
+.list_box .b .r {
+  display: flex;
+  align-items: flex-end;
+}
+.list_box .b .r p {
+  width: 55px;
+  height: 21px;
+  background: #ffffff;
+  border: 1px solid #8f8f8f;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #7d7d7d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.y ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.y ul li {
+  /* Ellipse 130 */
+
+  width: 7px;
+  height: 7px;
+  border-radius: 20px;
+  background: #d9d9d9;
+  margin-right: 10px;
+}

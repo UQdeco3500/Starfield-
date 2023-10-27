@@ -1,0 +1,59 @@
+.box {
+  /* background-color: aqua; */
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.head {
+  margin-bottom: 10px;
+}
+
+.head img {
+  width: 34.68px;
+  height: 34.68px;
+  transform: rotate(180deg);
+}
+
+.tit h1 {
+  width: 349px;
+  height: 62px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  color: #040404;
+}
+.tit .font {
+  display: flex;
+  justify-content: space-between;
+}
+.tit .font p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #959595;
+  margin-top: 5px;
+}
+.tit span {
+  color: #000000;
+  margin-left: 5px;
+}
+.banner {
+  margin-top: 5px;
+}
+
+.main p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+}
+.main span {
+  color: #bbbbbb;
+}

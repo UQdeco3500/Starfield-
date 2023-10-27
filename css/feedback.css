@@ -1,0 +1,246 @@
+.box {
+  /* background-color: aqua; */
+  padding-top: 20px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.head a img {
+  width: 34px;
+  height: 34px;
+  transform: rotate(180deg);
+}
+.head .tit {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  margin-right: 35px;
+}
+.head .tit img {
+  width: 37px;
+  height: 37px;
+  margin-right: 20px;
+}
+.head .tit h1 {
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.head .tit p {
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #5f5f5f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 5px;
+}
+
+.lab {
+  width: 192px;
+  height: 32px;
+  background: #ffffff;
+  border: 1px solid #9f9f9f;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.lab p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #848484;
+}
+.lab2 {
+  width: 355px;
+  height: 90px;
+  border: 1px solid #b4b4b4;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  padding-top: 15px;
+}
+.lab2 .t {
+  display: flex;
+  justify-content: space-between;
+}
+.lab2 .t p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #000000;
+}
+.lab2 .t span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #9c9c9c;
+}
+.lab2 .t span img {
+  width: 12.97px;
+  height: 12.99px;
+}
+.lab2 .t span {
+  display: flex;
+}
+.lab2 .b {
+  display: flex;
+  justify-content: space-between;
+}
+.lab2 .b p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+.lab2 .b .p1 {
+  background-color: #dfebc6;
+}
+.lab2 .b .p2 {
+  background-color: #ebe7c6;
+}
+.lab2 .b .p3 {
+  background-color: #ebe7c6;
+}
+
+.list_box {
+  padding-left: 20px;
+  margin-top: 30px;
+}
+.list_box .item {
+  position: relative;
+}
+.list_box .item .head {
+  width: 32px;
+  height: 32px;
+
+  border-radius: 50%;
+  background: #8a8a8a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list_box .item .head img {
+  height: 18px;
+  width: 18px;
+}
+.list_box .item .mes {
+  width: 180px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list_box .item .mes p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #1f1f1f;
+}
+
+.list_box .item .lab1 {
+  width: 21px;
+  height: 21px;
+  border-radius: 20px;
+  background: #e4e4e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 160px;
+  top: 50px;
+}
+.list_box .item .lab1 img {
+  width: 18px;
+  height: 16px;
+}
+
+.list_box .item .lab4 {
+  width: 21px;
+  height: 21px;
+  border-radius: 20px;
+  background: #e4e4e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 160px;
+  top: 80px;
+}
+.list_box .item .lab4 img {
+  width: 18px;
+  height: 16px;
+  transform: rotate(180deg) scaleX(-1);
+}
+.bto {
+  padding-left: 20px;
+  display: flex;
+  position: absolute;
+  bottom: 150px;
+}
+.bto .l {
+  width: 269px;
+  height: 39px;
+  left: 17px;
+  top: 681px;
+  background: #ffffff;
+  border: 1px solid #353535;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.bto .l img {
+  width: 27px;
+  height: 27px;
+}
+.bto .r {
+  display: flex;
+  align-items: center;
+}
+
+.bto .r .img1 {
+  width: 28px;
+  height: 28px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.bto .r .img2 {
+  width: 22px;
+  height: 24px;
+}

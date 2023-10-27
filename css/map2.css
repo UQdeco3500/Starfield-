@@ -1,0 +1,125 @@
+.mark3 .mark {
+  border: #de7615 1px solid;
+}
+.mark3 .mark .c {
+  background-color: #de7615;
+}
+.line {
+  position: absolute;
+  top: 368px;
+  left: 80px;
+}
+.lab3 p {
+  font-size: 15px;
+  color: #db7416;
+}
+
+.bot_box {
+  width: 100%;
+  width: 394px;
+  height: 253px;
+  background-color: #3e3e3f;
+  border-radius: 51px 39px 0px 0px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: center; */
+}
+.bot_box .line2 {
+  width: 159px;
+  height: 8px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.off_btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.off_btn a img {
+  width: 28px;
+  height: 28px;
+}
+.bot_box .tit {
+  width: 345px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.bot_box .tit h1 {
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 39px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.bot_box .tit p {
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #e6e6e6;
+  font-size: 13px;
+  letter-spacing: 0;
+  text-align: right;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+}
+.bot_box .tit span {
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #949494;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.bot_box .cen {
+  width: 345px;
+  margin: 0 auto;
+}
+.bot_box .cen p {
+  margin-top: 20px;
+}
+.bot_box p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.bot_box p span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #d3d3d3;
+}
+.bot_box .next {
+  width: 91px;
+  height: 91px;
+  background-color: #ffffff;
+  border-radius: 45.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}
+.bot_box .next img {
+  width: 68px;
+  height: 68px;
+}

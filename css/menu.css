@@ -1,0 +1,220 @@
+.box {
+  padding-top: 20px;
+  overflow-y: hidden;
+}
+.head {
+  display: flex;
+  padding-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.head .fh img {
+  width: 41px;
+  height: 41px;
+  transform: rotate(180deg);
+}
+.head .input input {
+  width: 238px;
+  height: 42px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  border: 1px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+  text-align: center;
+}
+.head .sho_c {
+  position: relative;
+  width: 40px;
+}
+.head .sho_c img {
+  width: 38px;
+  height: 35px;
+}
+.head .sho_c .n {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 18px;
+  height: 18px;
+  background-color: #cf3d3d;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.head .sho_c .n p {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.ico {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+.ico img {
+  width: 27px;
+  height: 27px;
+  margin-right: 5px;
+}
+.ico p {
+  width: 42px;
+  height: 22px;
+  background-color: #1f591a;
+  border-radius: 7px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.list_box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-right: 20px;
+}
+.list_box .item {
+  box-sizing: border-box;
+  width: 167px;
+  height: 227px;
+  margin-bottom: 40px;
+  border: 1px solid #cecece;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.list_box .item img {
+  width: 146px;
+  /* height: 143px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.list_box .item .font {
+  width: 146px;
+  display: flex;
+  justify-content: space-between;
+}
+.list_box .item .r {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list_box .item .r img {
+  width: 27px;
+  height: 27px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.list_box .item .l p {
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.list_box .item .r p {
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.list_box .item .lab1 {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  top: 20px;
+  left: 20px;
+  background-color: #ffffff;
+  border-radius: 15.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list_box .item .lab1 img {
+  width: 17px;
+  height: 17px;
+}
+.list_box .item .lab2 {
+  position: absolute;
+  width: 45px;
+  height: 24px;
+  top: 120px;
+  left: 100px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list_box .item .lab2 img {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}
+.list_box .item .lab2 p {
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.list_box .item .img {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.list_box .item .img p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.list_box .item .img img:first-child {
+  width: 24px;
+  height: 24px;
+}
+
+.bot_box {
+  width: 393px;
+  height: 114px;
+  left: 0px;
+  top: 738px;
+  background: #ffffff;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bot_box a {
+  display: block;
+  width: 289px;
+  height: 45px;
+  background-color: #4450c2;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}

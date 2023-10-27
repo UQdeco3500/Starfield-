@@ -1,0 +1,25 @@
+.nottice {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 35px;
+}
+.from .item img {
+  width: 37px;
+  height: 37px;
+}
+.from .item .img2 {
+  width: 34px;
+  height: 36px;
+}
+.from .item:nth-child(3) {
+  padding-top: 15px;
+}
+.from .item:nth-child(3) label {
+  margin-top: 10px;
+}
+.from .item:nth-child(4) {
+  padding-top: 15px;
+}
+.from .item:nth-child(4) label {
+  margin-top: 10px;
+}

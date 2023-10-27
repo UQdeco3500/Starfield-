@@ -1,0 +1,153 @@
+.box {
+  background-image: url(../image/mask-group.png);
+  background-size: 100% 100%;
+  position: relative;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.search input {
+  width: 341px;
+  height: 57px;
+  margin-top: 50px;
+  background-color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 18px;
+  border: 1px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+}
+.search .ico {
+  position: absolute;
+  left: 45px;
+  top: 65px;
+}
+.search .ico img {
+  width: 25px;
+  height: 28px;
+}
+.mark {
+  width: 31px;
+  height: 31px;
+  border-radius: 15.5px;
+  border: 1px solid;
+  border-color: #000000;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mark .c {
+  width: 21px;
+  height: 21px;
+  background-color: #4450c2;
+  border-radius: 10.5px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+.mark1 {
+  position: absolute;
+  top: 255px;
+  left: 310px;
+}
+.mark2 {
+  position: absolute;
+  top: 310px;
+  left: 104px;
+}
+.mark3 {
+  position: absolute;
+  top: 495px;
+  left: 55px;
+}
+.mark4 {
+  position: absolute;
+  top: 385px;
+  left: 309px;
+}
+.lab {
+  width: 99px;
+  height: 46px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0px 4px 4px #00000040, 0px 4px 4px #00000040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+.lab img {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  /* margin-right: 5px; */
+}
+.lab p {
+  width: 55px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  word-wrap: break-word;
+}
+
+.lab1 p {
+  font-size: 12px;
+}
+.lab2 p {
+  font-size: 13px;
+}
+
+.lab4 p {
+  font-size: 11px;
+}
+.lab4 img {
+  width: 30px;
+  height: 30px;
+}
+
+.lab1 {
+  top: 255px;
+  left: 70px;
+}
+.lab2 {
+  top: 200px;
+  left: 275px;
+}
+.lab3 {
+  top: 425px;
+  left: 10px;
+}
+.lab4 {
+  width: 110px;
+  top: 330px;
+  left: 270px;
+}
+.lab4 p {
+  width: 70px;
+}
+
+.ma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 318px;
+  left: 197px;
+}
+.ma p {
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #4450c2;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.ma img {
+  width: 47px;
+  height: 47px;
+  object-fit: cover;
+}
